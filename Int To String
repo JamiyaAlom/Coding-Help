@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>  
+using namespace std;  
+int main() {  
+  int k;  
+  cin>>k;  
+  string s; 
+  stringstream p;  
+  p<<k;  
+  p>>s;  
+  cout<<"An integer value is : "<<k<<endl;  
+  cout<<"String representation of an integer value is : "<<s<<endl;   
+}  
